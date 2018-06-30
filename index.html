@@ -11,21 +11,75 @@
 
 <body>
   <div class="wrapper">
-    <header>
+    <header class="header">
+      <a href="/" class="logo">
+        <img class="logo__img" src="img/logo-fig.jpg" alt="Наше лого">
+      </a>
+      <div class="phone">
+        <span class="phone__number">8 (800) 00-392-10</span>
+      </div>
+      <div class="schedule">
+        <button class="schedule__button" type="button">График работы</button>
+      </div>
     </header>
-    <div>
-      <img src="img/banner.jpg" alt="banner">
+    <div class="about">
+      <img class="about__img" src="img/banner.jpg" alt="banner">
     </div>
     <div class="container">
       <aside class="sidebar">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__item-link">
+                  <img  class="menu__item-icon" src="img/menu__item-main.jpg" alt="Иконка главной страницы">
+                  <span class="menu__item-name">Главная</span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__item-link">
+                  <img class="menu__item-icon" src="img/menu__item-reviews.jpg" alt="Иконка страницы Отзывы">
+                  <span class="menu__item-name">Отзывы</span>
+                </a></li>
+              <li class="menu__item">
+                <a href="#" class="menu__item-link">
+                    <img class="menu__item-icon" src="img/menu__item-rates.jpg" alt="Иконка страницы Тарифы" >
+                    <span class="menu__item-name">Тарифы</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
       </aside>
-      <main>
-        <div class="features"></div>
+      <main class="main">
+        <section class="features">
+          <h1 class="features__title">Особенности</h1>
+          <ul class="features__list">
+            <li class="features__item">
+              <img class="feature__icon" src="" alt="">
+              <h2 class="feature__name"></h2>
+              <p class="feature__text"></p>
+            </li>
+            <li class="features__item">
+              <img class="feature__icon" src="" alt="">
+              <h2 class="feature__name"></h2>
+              <p class="feature__text"></p>
+            </li>
+            <li class="features__item">
+              <img class="feature__icon" src="" alt="">
+              <h2 class="feature__name"></h2>
+              <p class="feature__text"></p>
+            </li>
+            <li class="features__item">
+              <img class="feature__icon" src="" alt="">
+              <h2 class="feature__name"></h2>
+              <p class="feature__text"></p>
+            </li>
+          </ul>
+        </section>
         <div class="feeds"></div>
       </main>
       <div class="pagination"></div>
     </div>
-    <footer>
+    <footer class="footer">
     </footer>
   </div>
 </body>
