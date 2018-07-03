@@ -1,2 +1,8 @@
 .container {
 }
+
+.feature__icon {
+width: 27px;
+height: 31px;
+background-color: #27273e;
+}
