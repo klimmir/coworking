@@ -2,7 +2,16 @@
 }
 
 .feature__icon {
-width: 27px;
-height: 31px;
-background-color: #27273e;
+    width: 68px;
+    height: 68px;
+    background-color: #27273e;
+    border-radius: 50%;
+    
+}
+.feature__symbol {
+    width: 27px;
+    height: 31px;
+    position: relative;
+    left: 21px;
+    top: 20px;
 }
