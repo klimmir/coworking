@@ -1,6 +1,29 @@
-.container {
+/* .header {
+    width: 1100px;
+    height: 76px;
+    background-color: #27273e;
+}
+.logo {
+    width: 99px;
+    height: 51px;
 }
 
+.phone__number {
+    width: 198px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 54px;
+    text-transform: uppercase;
+}
+.container {
+} */
+
+.features__list {
+    list-style-type: none;
+}
 .feature__icon {
     width: 68px;
     height: 68px;
@@ -14,4 +37,8 @@
     position: relative;
     left: 21px;
     top: 20px;
+}
+
+.feature__items-list {
+    list-style-type: disc;
 }
