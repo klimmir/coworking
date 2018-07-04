@@ -20,7 +20,19 @@
 }
 .container {
 } */
+.sidebar {
+    float: left;
+}
+.main {
+    float: left;
+}
+.features, .news {
+    float: left;
 
+}
+.feature {
+    float: left;
+}
 .features__list {
     list-style-type: none;
 }
@@ -39,6 +51,6 @@
     top: 20px;
 }
 
-.feature__items-list {
+.feature__advantage-list {
     list-style-type: disc;
 }
