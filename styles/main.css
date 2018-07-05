@@ -94,3 +94,38 @@
     height: 166px; 
 }
 
+.pagination {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.pagination__previos,
+.pagination__next {
+    border: none;
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #27273e;
+}
+
+.copyrights,
+.footer__logo,
+.social-nets {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.copyrights {
+    width: 264px;
+    height: 48px;
+}
+
+.footer__logo {
+    margin-left: 20%;
+}
+
+.social-nets {
+    width: 168px;
+    height: 12px;
+}
