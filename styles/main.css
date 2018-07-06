@@ -2,6 +2,7 @@
     width: 1100px;
     height: 1943px;
     margin: 0 auto;
+    font-family: GothamPro, sans-serif ;
 }
 
 .header {
@@ -14,27 +15,46 @@
 .logo {
     width: 99px;
     height: 51px;
+    margin: 8px;
+}
+
+.header__logo {
+    position: absolute;
+    left: 0.1%;
+    top: 4%;
 }
 
 .phone__number {
-    width: 198px;
-    height: 18px;
     color: #ffffff;
-    font-family: "Gotham Pro";
+    font-family: "GothamPro";
     font-size: 21px;
     font-weight: 700;
     line-height: 54px;
     text-transform: uppercase;
+    text-decoration: none;
     position: absolute;
-    right: 0.01%;
-    top: 4%;
+    right: 20px;
+
 }
 
 .schedule-block {
     position: absolute;
-    right: 4%;
-    top: 65%;
+    right: 20px;
+    top: 45px;
 }
+
+.schedule__button {
+    display: inline-block;
+    border: none;
+    text-decoration: underline;
+    opacity: 0.7;
+    color: #ec1e79;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #27273e;
+}
+
+
 
 /*.container {
 } */
@@ -46,7 +66,7 @@
     vertical-align: top;
 }
 
-.menu__list{
+.menu__list {
     list-style-type: none;
 }
 
@@ -54,9 +74,7 @@
     display: inline-block;
 }
 
-.features {
-    
-}
+.features {}
 
 .feature {
     display: inline-block;
@@ -85,13 +103,13 @@
     list-style-type: disc;
 }
 
-.news{
-    display: inline-block;   
+.news {
+    display: inline-block;
 }
 
-.section__text{
+.section__text {
     width: 685px;
-    height: 166px; 
+    height: 166px;
 }
 
 .pagination {
@@ -107,25 +125,64 @@
 
 .footer {
     background-color: #27273e;
+    display: inline-block;
+    text-align: center;
+    font-size: 0;
 }
 
 .copyrights,
-.footer__logo,
+div.footer__logo,
 .social-nets {
     display: inline-block;
     color: #ffffff;
+    font-size: 14px;
 }
 
 .copyrights {
     width: 264px;
     height: 48px;
+    text-align: left;
+    margin: 14px 19px 14px 19px;
 }
 
-.footer__logo {
-    margin-left: 20%;
+div.footer__logo {
+    width: 99px;
+    height: 51px;
+    margin: 14px 240px 14px 240px;
 }
 
 .social-nets {
     width: 168px;
     height: 12px;
+    text-align: right;
+    margin: 14px 19px 14px 19px;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/GothamPro-Light/GothamPro-Light.eot'); /* IE9 */
+    src: url('../fonts/GothamPro-Light/GothamPro-Light.woff') format('woff'), /* Современные браузеры */
+         url('../fonts/GothamPro-Light/GothamPro-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/GothamPro-Light/GothamPro-Light.svg') format('svg'); /* iOS */
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/GothamPro-Bold/GothamPro-Bold.eot'),    /* IE9 */
+         url('../fonts/GothamPro-Bold/GothamPro-Bold.woff') format('woff'), /* Современные браузеры */
+         url('../fonts/GothamPro-Bold/GothamPro-Bold.svg') format('svg');  /* iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.eot'), /* IE9 */
+         url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.woff') format('woff'), /* Современные браузеры */
+         url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.svg') format('svg');  /* iOS */
+    font-weight: normal;
+    font-style: italic;
 }
