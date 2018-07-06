@@ -70,6 +70,43 @@
     list-style-type: none;
 }
 
+.menu__item {
+    margin-left: -20px;
+}
+
+.menu__item-link {
+    text-decoration: none;
+    width: 62px;
+    height: 9px;
+    color: #ec1e79;
+    font-family: "GothamPro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 54px;
+    text-transform: uppercase;
+    /* Text style for "Отзывы" */
+    letter-spacing: 1.2px;
+}
+
+.menu__item-link:hover {
+    /* Style for "Главная" */
+    width: 71px;
+    height: 11px;
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 54px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* Text style for "Главная" */
+    letter-spacing: 1.2px;
+}
+
+.menu__item-name {
+    margin-left: 20px;
+}
+
 .main {
     display: inline-block;
 }
