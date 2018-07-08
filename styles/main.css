@@ -175,7 +175,7 @@
     margin-top: -10px;
 }
 
-.news {
+.news, .comments {
     display: inline-block;
     margin-left: 40px;
 }
@@ -183,7 +183,25 @@
 .article__icon, .article__content {
     display: inline-block;
     margin: 0px;
+    vertical-align: middle;
 }
+
+.article__icon {
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 163px;
+    height: 163px;
+    border-radius: 50%;
+}
+
+.article__logo {
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    text-align: center;
+    opacity: 0.3;
+}
+
 .article__text {
     width: 685px;
     height: 166px;
@@ -191,9 +209,33 @@
 
 }
 
+.discount {
+    background-image: url(../img/discount__back.png);
+    background-color: #27273e;
+    width: 1100px;
+    height: 177px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.discount__text {
+    text-align: left;
+    display: inline-block;
+    width: 611px;
+    height: 77px;
+    color: #ffffff;
+    font-family: "GothamPro";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 45px;
+
+}
+
 .pagination {
     width: 400px;
-    margin: -50px auto 70px auto;
+    margin: 0px auto 70px auto;
 }
 
 .pagination__previos,
