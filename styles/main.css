@@ -12,6 +12,7 @@
     font-family: 'GothamPro';
     src: url('../fonts/GothamPro-Bold/GothamPro-Bold.eot'),    /* IE9 */
          url('../fonts/GothamPro-Bold/GothamPro-Bold.woff') format('woff'), /* Современные браузеры */
+         url('../fonts/GothamPro-Bold/GothamPro-Bold.ttf') format('truetype'),
          url('../fonts/GothamPro-Bold/GothamPro-Bold.svg') format('svg');  /* iOS */
     font-weight: bold;
     font-style: normal;
@@ -43,292 +44,166 @@ body {
     width: 1100px;
 }
 
-/*
+button:hover {
+    cursor: pointer;
+}
+
+.about__img {
+    height: 361px;
+    background-image: url("../img/banner.jpg");
+    margin: 0 auto;
+    width: 1100px;
+}
+
 .header {
-    position: relative;
 }
 .logo {
-    width: 99px;
-    height: 51px;
-    margin: 8px;
 }
 
 .header__logo {
-    position: absolute;
-    left: 0.1%;
-    top: 4%;
+    
 }
 
 .phone__number {
-    color: #ffffff;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 54px;
-    text-transform: uppercase;
-    text-decoration: none;
-    position: absolute;
-    right: 20px;
-
+    
 }
 
 .schedule-block {
-    position: absolute;
-    right: 20px;
-    top: 45px;
+    
 }
 
 .schedule__button {
-    display: inline-block;
-    border: none;
-    text-decoration: underline;
-    opacity: 0.7;
-    color: #ec1e79;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: #27273e;
-}*/
+    
+}
 
-
-
-
-
-/* .sidebar { 
-    display: inline-block;
-    vertical-align: top;
+.sidebar {  
+    
 }
 
 .section__title {
-    color: #221f1f;
-    font-family: "GothamPro";
-    font-size: 49px;
-    font-weight: 700;
-    line-height: 38px;
+    
 }
 
 .menu__list {
-    list-style-type: none;
-    margin-top: 65px;
+    
 }
 
 .menu__item {
-    margin-left: -20px;
+    
 }
 
 .menu__item-link {
-    text-decoration: none;
-    color: #ec1e79;
-    font-family: "GothamPro";
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 54px;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
+    
 }
 
 .menu__item-link:hover {
-    color: #000000;
-    font-family: "Gotham Pro";
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 54px;
-    text-decoration: underline;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
+   
 }
 
 .menu__item-name {
-    margin-left: 20px;
 }
 
 .main {
-    display: inline-block;
-    width: 900px;
+    
 }
 
 .features {
-    display: inline-block;
-    text-align: left;
-    margin: 40px;
+    
 
 }
 
 .feature {
-    display: inline-block;
-    text-align: center;
-    width: 194px;
-    height: 147px;
-    color: #221f1f;
-    font-family: "Gotham Pro";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-right: 60px;
+    
 }
 
 .features__list {
-    list-style-type: none;
 }
 
 .feature__icon {
-    display: inline-block;
-    text-align: center;
-    width: 68px;
-    height: 68px;
-    background-color: #27273e;
-    border-radius: 50%;
+   
 }
 
 .feature__symbol {
-    width: 27px;
-    height: 31px;
-    position: relative;
-    top: 20px; 
 }
 
 .feature__name {
-    color: #212121;
-    font-family: "GothamPro";
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 51.38px;
-    text-transform: uppercase;
-    letter-spacing: 2.88px;
+  
 }
 
 .feature__text {
-    display: inline-block;
-    text-align: center;
-    margin-top: -10px;
+   
 }
 
 .feature__advantage-list {
-    list-style-type: disc;
-    display: inline-block;
-    text-align: left;
-    margin-top: -10px;
+    
 }
 
 .news, .comments {
-    display: inline-block;
-    margin-left: 40px;
+    
 }
 
 .article__icon, .article__content {
-    display: inline-block;
-    margin: 0px;
-    vertical-align: middle;
+    
 }
 
 .article__icon {
-    text-align: center;
-    background-color: #f5f5f5;
-    width: 163px;
-    height: 163px;
-    border-radius: 50%;
+   
 }
 
 .article__logo {
-    display: inline-block;
-    text-align: center;
-    margin-top: 50px;
-    text-align: center;
-    opacity: 0.3;
+   
 }
 
 .article__text {
-    width: 685px;
-    height: 166px;
-    display: inline-block;
+ 
 
 }
 
 .discount {
-    background-image: url(../img/discount__back.png);
-    background-color: #27273e;
-    width: 1100px;
-    height: 177px;
-    text-align: center;
-    vertical-align: middle;
+  
 }
 
 .discount__text {
-    text-align: left;
-    display: inline-block;
-    width: 611px;
-    height: 77px;
-    color: #ffffff;
-    font-family: "GothamPro";
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 30px;
-    font-weight: 300;
-    margin: 45px;
-
+   
 }
 
 .pagination {
-    width: 400px;
-    margin: 0px auto 70px auto;
+   
 }
 
 .pagination__previos,
 .pagination__next {
-    border: none;
-    background-color: #ffffff;
+   
 }
 
 .footer {
-    background-color: #27273e;
-    display: inline-block;
-    text-align: center;
-    font-size: 0;
+  
 }
 
 .copyrights,
 div.footer__logo,
 .social-nets {
-    display: inline-block;
-    color: #ffffff;
-    font-size: 14px;
+   
 }
 
 .copyrights {
-    width: 264px;
-    height: 48px;
-    text-align: left;
-    margin: 14px 19px 14px 19px;
+   
 }
 
 div.footer__logo {
-    width: 99px;
-    height: 51px;
-    margin: 14px 240px 14px 240px;
 }
 
 .social-nets {
-    width: 168px;
-    height: 12px;
-    margin: 14px 19px 14px 19px;
-    display: inline-block;
-    text-align: left;
+   
 }
 
 .social-net__link {
-    text-decoration: none;
-    background-color: #d4d4d8;
-    text-align: center;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: 10px 8px 0px 0px;
+   
 }
 
 .social-net__link:hover {
-    background-color: #ec1e79;
 }
 
 .social-net__icon {
-    margin-bottom: -2px;
  }
-  */
+ 
