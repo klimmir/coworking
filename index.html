@@ -25,6 +25,7 @@
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
   <!--  -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
@@ -32,30 +33,25 @@
   <div class="wrapper">
     <header class="header">
       <div class="container">
-        <a href="/" class="logo header__logo">
+        <a href="/" class="header__logo">
           <img class="logo__img" src="img/logo-fig.png" alt="Наше лого">
         </a>
-        <div class="phone">
-          <a href="tel:+88000039210" class="phone__number">8 (800) 00-392-10</a>
-        </div>
-        <div class="schedule">
-          <button class="schedule__button" type="button">График работы</button>
-        </div>
+        <a href="tel:+88000039210" class="header__phone">8 (800) 00-392-10</a>
+        <button class="header__schedule" type="button">График работы</button>
       </div>
     </header>
     <div class="about">
-      <div class="about__img">
-        Баннер
+      <div class="container">
+        <img src="../img/banner.jpg" alt="Banner" class="about__img">
       </div>
     </div>
     <div class="container">
       <aside class="sidebar">
-          <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="#" class="menu__item-link">
+                <a class="menu__item-link">
                   <img  class="menu__item-icon" src="img/menu__item-main.jpg" alt="Иконка главной страницы">
-                  <span class="menu__item-name">Главная</span>
+                  <span class="menu__item-name menu__item-name--active">Главная</span>
                 </a>
               </li>
               <li class="menu__item">
@@ -70,7 +66,6 @@
                 </a>
               </li>
             </ul>
-          </nav>
       </aside>
       <main class="main">
         <section class="features ">

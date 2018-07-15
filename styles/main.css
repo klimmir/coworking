@@ -1,209 +1,200 @@
 @font-face {
-    font-family: 'GothamPro';
-    src: url('../fonts/GothamPro-Light/GothamPro-Light.eot'); /* IE9 */
-    src: url('../fonts/GothamPro-Light/GothamPro-Light.woff') format('woff'), /* Современные браузеры */
-         url('../fonts/GothamPro-Light/GothamPro-Light.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/GothamPro-Light/GothamPro-Light.svg') format('svg'); /* iOS */
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'GothamPro';
+  src: url('../fonts/GothamPro-Light/GothamPro-Light.eot');
+  /* IE9 */
+  src: url('../fonts/GothamPro-Light/GothamPro-Light.woff') format('woff'), /* Современные браузеры */
+  url('../fonts/GothamPro-Light/GothamPro-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/GothamPro-Light/GothamPro-Light.svg') format('svg');
+  /* iOS */
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'GothamPro';
-    src: url('../fonts/GothamPro-Bold/GothamPro-Bold.eot'),    /* IE9 */
-         url('../fonts/GothamPro-Bold/GothamPro-Bold.woff') format('woff'), /* Современные браузеры */
-         url('../fonts/GothamPro-Bold/GothamPro-Bold.ttf') format('truetype'),
-         url('../fonts/GothamPro-Bold/GothamPro-Bold.svg') format('svg');  /* iOS */
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'GothamPro';
+  src: url('../fonts/GothamPro-Bold/GothamPro-Bold.eot'), /* IE9 */
+  url('../fonts/GothamPro-Bold/GothamPro-Bold.woff') format('woff'), /* Современные браузеры */
+  url('../fonts/GothamPro-Bold/GothamPro-Bold.ttf') format('truetype'), url('../fonts/GothamPro-Bold/GothamPro-Bold.svg') format('svg');
+  /* iOS */
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'GothamPro';
-    src: url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.eot'), /* IE9 */
-         url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.woff') format('woff'), /* Современные браузеры */
-         url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.svg') format('svg');  /* iOS */
-    font-weight: normal;
-    font-style: italic;
+  font-family: 'GothamPro';
+  src: url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.eot'), /* IE9 */
+  url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.woff') format('woff'), /* Современные браузеры */
+  url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.svg') format('svg');
+  /* iOS */
+  font-weight: normal;
+  font-style: italic;
 }
 
 body {
-   font-family: "GothamPro", sans-serif;
-   font-weight: 300;
-   font-style: normal;
+  font-family: "GothamPro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
- 
-.header, .about, .footer {
-    background-color: #27273e;
+.header,
+.about,
+.footer {
+  background-color: #27273e;
 }
 
 .container {
-    margin: 0 auto;
-    width: 1100px;
+  margin: 0 auto;
+  width: 1100px;
+  position: relative;
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.about__img {
-    height: 361px;
-    background-image: url("../img/banner.jpg");
-    margin: 0 auto;
-    width: 1100px;
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
 }
 
 .header {
-}
-.logo {
+    height: 77px;
 }
 
 .header__logo {
-    
+    position: absolute;
+    left: 15px;
+    top: 10px;
 }
 
-.phone__number {
-    
+
+.header__phone {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+
 }
 
-.schedule-block {
-    
+.header__schedule {
+    position: absolute;
+    right: 15px;
+    top: 41px;
+    text-decoration: underline;
+    border: none;
+    display: inline-block;
+    background-color: #27273e;
+    color: #ec1e79;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.7;
 }
 
-.schedule__button {
-    
+.about {
+    margin-bottom: 60px;
 }
 
-.sidebar {  
-    
-}
-
-.section__title {
-    
-}
-
-.menu__list {
-    
-}
+.menu__list {}
 
 .menu__item {
-    
+    margin-bottom: 25px;
 }
 
 .menu__item-link {
-    
+    text-decoration: none;
+    color: #ec1e79;
+    font-family: "GothamPro";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
-.menu__item-link:hover {
-   
-}
 
 .menu__item-name {
+    margin-left: 15px;
 }
 
-.main {
-    
+.menu__item-name--active {
+    text-decoration: underline;
+    color: #000000;
 }
 
-.features {
-    
+.main {}
 
-}
+.features {}
 
-.feature {
-    
-}
+.feature {}
 
-.features__list {
-}
+.features__list {}
 
-.feature__icon {
-   
-}
+.feature__icon {}
 
-.feature__symbol {
-}
+.feature__symbol {}
 
-.feature__name {
-  
-}
+.feature__name {}
 
-.feature__text {
-   
-}
+.feature__text {}
 
-.feature__advantage-list {
-    
-}
+.feature__advantage-list {}
 
-.news, .comments {
-    
-}
+.news,
+.comments {}
 
-.article__icon, .article__content {
-    
-}
+.article__icon,
+.article__content {}
 
-.article__icon {
-   
-}
+.article__icon {}
 
-.article__logo {
-   
-}
+.article__logo {}
 
-.article__text {
- 
+.article__text {}
 
-}
+.discount {}
 
-.discount {
-  
-}
+.discount__text {}
 
-.discount__text {
-   
-}
-
-.pagination {
-   
-}
+.pagination {}
 
 .pagination__previos,
-.pagination__next {
-   
-}
+.pagination__next {}
 
-.footer {
-  
-}
+.footer {}
 
 .copyrights,
 div.footer__logo,
-.social-nets {
-   
-}
+.social-nets {}
 
-.copyrights {
-   
-}
+.copyrights {}
 
-div.footer__logo {
-}
+div.footer__logo {}
 
-.social-nets {
-   
-}
+.social-nets {}
 
-.social-net__link {
-   
-}
+.social-net__link {}
 
-.social-net__link:hover {
-}
+.social-net__link:hover {}
 
-.social-net__icon {
- }
- 
+.social-net__icon {}
