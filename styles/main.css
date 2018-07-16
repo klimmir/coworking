@@ -47,6 +47,7 @@ body {
   margin: 0 auto;
   width: 1100px;
   position: relative;
+  
 }
 
 button:hover {
@@ -142,26 +143,102 @@ h6 {
     color: #000000;
 }
 
-.main {}
 
-.features {}
+.features,
+.feature,
+.main,
+.sidebar {
+  display: inline-block;
+}
 
-.feature {}
+.sidebar {
+  vertical-align: top;
+}
+
+.main {
+  margin-left: 70px;
+}
+
+.feature {
+  width: 194px;
+  height: 300px;
+  margin-right: 60px;
+  text-align: center;
+}
+
+
+.section__title {
+font-size: 49px;
+font-weight: 700;
+line-height: 38px;
+margin-bottom: 60px;
+}
+
+.feature__icon,
+.section__title {
+  margin-bottom: 30px;
+}
 
 .features__list {}
 
-.feature__icon {}
+.feature__icon {
+  width: 71px;
+  height: 71px;
+  background-color: #27273e; 
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
 
-.feature__symbol {}
+.feature__symbol {
+  position: absolute;
+  top: 18px;
+  left: 21px;
+}
 
-.feature__name {}
+.feature__name {
+width: 194px;
+height: 8px;
+font-size: 11px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.88px;
+white-space: nowrap;
+text-align: center;
 
-.feature__text {}
+}
 
-.feature__advantage-list {}
+.feature__text {
+  line-height: 30px;
+  text-align: center;
+}
+
+.feature__advantage-list {
+  line-height: 30px;
+  text-align: left;
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.feature__advantage {
+  padding-left: 10px; 
+}
+
+.feature__advantage::before {
+  content: "•"; 
+  padding-right: 30px;
+  color: #cc3366;
+  font-weight: 700;
+
+}
+
+
 
 .news,
-.comments {}
+.comments {
+  width: 870px;
+}
 
 .article__icon,
 .article__content {}
