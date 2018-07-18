@@ -204,11 +204,13 @@ p {
     letter-spacing: 2.88px;
     white-space: nowrap;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .feature__text {
     line-height: 30px;
     text-align: center;
+    font-weight: 400;
 }
 
 .feature__advantage-list {
@@ -282,22 +284,90 @@ p {
 }
 
 .pagination__previos,
-.pagination__next {}
+.pagination__next {
+    border: none;
+    background-color: #ffffff;
+}
 
-.footer {}
+.pagination__page {
+    border: none;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pagination__page--active {
+    border: none;
+    background-color: #27273e;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    border-radius: 10%;
+}
+
+.footer {
+    position: relative;
+    height: 79px;
+    
+}
 
 .copyrights,
 div.footer__logo,
-.social-nets {}
+.social-nets {
+    display: inline-block;
+    position: absolute;
+}
 
-.copyrights {}
+.copyrights {
+    width: 264px;
+    height: 48px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    top: 10px;
 
-div.footer__logo {}
+}
 
-.social-nets {}
+.footer__loftschool-link {
+    text-decoration: underline;
+    color: #ffffff;
+}
 
-.social-net__link {}
+div.footer__logo {
+    left: 490px;
+    top: 10px;
+}
 
-.social-net__link:hover {}
+.social-nets {
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.social-nets__title {
+    margin-bottom: 10px;
+    display: inline-block;
+}
 
-.social-net__icon {}
+.social-net__link {
+    background-color: #d4d4d8;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.social-net__link:hover {
+    background-color: #ec1e79;
+}
+
+.social-net__icon {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+
+}
