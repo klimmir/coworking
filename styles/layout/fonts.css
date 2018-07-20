@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/GothamPro-Light/GothamPro-Light.eot');
+    /* IE9 */
+    src: url('../fonts/GothamPro-Light/GothamPro-Light.woff') format('woff'), /* Современные браузеры */
+    url('../fonts/GothamPro-Light/GothamPro-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GothamPro-Light/GothamPro-Light.svg') format('svg');
+    /* iOS */
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/GothamPro-Bold/GothamPro-Bold.eot'), /* IE9 */
+    url('../fonts/GothamPro-Bold/GothamPro-Bold.woff') format('woff'), /* Современные браузеры */
+    url('../fonts/GothamPro-Bold/GothamPro-Bold.ttf') format('truetype'), url('../fonts/GothamPro-Bold/GothamPro-Bold.svg') format('svg');
+    /* iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.eot'), /* IE9 */
+    url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.woff') format('woff'), /* Современные браузеры */
+    url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GothamPro-LightItalic/GothamPro-LightItalic.svg') format('svg');
+    /* iOS */
+    font-weight: normal;
+    font-style: italic;
+}

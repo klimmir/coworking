@@ -1,0 +1,25 @@
+.pagination {
+    margin: 0 0 65px 465px;
+}
+
+.pagination__previos,
+.pagination__next {
+    border: none;
+    background-color: #ffffff;
+}
+
+.pagination__page {
+    border: none;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pagination__page--active {
+    border: none;
+    background-color: #27273e;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    border-radius: 10%;
+}

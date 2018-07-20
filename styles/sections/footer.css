@@ -1,0 +1,68 @@
+.footer {
+    position: relative;
+    height: 79px;
+    min-width: 1120px;
+    background-color: #27273e;
+    /* margin-top: -50px; */
+}
+
+.copyrights,
+div.footer__logo,
+.social-nets {
+    display: inline-block;
+    position: absolute;
+}
+
+.copyrights {
+    width: 264px;
+    height: 48px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    top: 10px;
+
+}
+
+.footer__loftschool-link {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+div.footer__logo {
+    left: 490px;
+    top: 10px;
+}
+
+.social-nets {
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.social-nets__title {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.social-net__link {
+    background-color: #d4d4d8;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.social-net__link:hover {
+    background-color: #ec1e79;
+}
+
+.social-net__icon {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+
+}

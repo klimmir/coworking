@@ -1,0 +1,132 @@
+.features,
+.feature,
+.main {
+    display: inline-block;
+}
+
+.main {
+    margin-left: 70px;
+}
+
+.features {
+    margin-bottom: 75px;
+}
+
+.feature {
+    width: 194px;
+    height: 300px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.section__title {
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 60px;
+}
+
+.feature__icon,
+.section__title {
+    margin-bottom: 30px;
+}
+
+.features__list {}
+
+.feature__icon {
+    width: 71px;
+    height: 71px;
+    background-color: #27273e;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+}
+
+.feature__symbol {
+    position: absolute;
+    top: 18px;
+    left: 21px;
+}
+
+.feature__name {
+    width: 194px;
+    height: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature__text {
+    line-height: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.feature__advantage-list {
+    line-height: 30px;
+    text-align: left;
+    list-style: none;
+    /* Remove HTML bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.feature__advantage {
+    padding-left: 10px;
+}
+
+.feature__advantage::before {
+    content: "•";
+    padding-right: 30px;
+    color: #cc3366;
+    font-weight: 700;
+}
+
+.news,
+.comments {
+    width: 870px;
+}
+
+.news__item {
+    margin-bottom: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.article__icon,
+.article__content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article__icon {
+    margin-right: 10px;
+}
+
+.article__text {
+    width: 685px;
+    line-height: 21px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.article__date,
+.article__title {
+    margin-bottom: 10px;
+}
+
+.article__title {
+    font-weight: 700;
+    line-height: 21px;
+    font-size: 18px;
+}
+
+.article__date {
+    color: #656464;
+    font-size: 14px;
+    line-height: 21px;
+}

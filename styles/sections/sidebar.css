@@ -1,0 +1,30 @@
+.sidebar {
+    display: inline-block;
+}
+
+.sidebar {
+    vertical-align: top;
+}
+
+.menu__item {
+    margin-bottom: 25px;
+}
+
+.menu__item-link {
+    text-decoration: none;
+    color: #ec1e79;
+    font-family: "GothamPro";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.menu__item-name {
+    margin-left: 15px;
+}
+
+.menu__item-name--active {
+    text-decoration: underline;
+    color: #000000;
+}
