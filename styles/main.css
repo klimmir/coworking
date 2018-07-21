@@ -1,11 +1,11 @@
 /* layout setups */
 @import url(layout/fonts.css);
-@import url(layout/base.css);
 @import url(normalize.css);
+@import url(layout/base.css);
 /* sections */
+@import url(sections/main-page.css);
 @import url(sections/header.css);
 @import url(sections/about.css);
 @import url(sections/sidebar.css);
-@import url(sections/main-page.css);
 @import url(sections/pagination.css);
 @import url(sections/footer.css);
