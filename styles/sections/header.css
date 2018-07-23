@@ -3,20 +3,17 @@
 }
 
 .header {
-    height: 77px;
 }
 
 .header .container {
     display: flex;
+    padding: 10px 15px;
+    flex-wrap: wrap;
 }
 
 .header__column {
     flex: 1;
-}
 
-.header__column--right {
-    display: flex;
-    flex-flow: column;
 }
 
 .header__logo {
@@ -24,10 +21,18 @@
     top: 10px;
 }
 
+.logo__img {
+}
+
+.header__column--right {
+    display: flex;
+    flex-flow: column;
+}
+
 .header__phone {
+    display: block;
     text-align: right;
     text-decoration: none;
-    display: block;
     color: #ffffff;
     font-size: 21px;
     font-weight: 700;
@@ -36,10 +41,11 @@
 }
 
 .header__schedule {
+    display: block;
+    padding: 0;
     text-align: right;
     text-decoration: underline;
     border: none;
-    display: block;
     background-color: #27273e;
     color: #ec1e79;
     font-family: 'Open Sans', sans-serif;
